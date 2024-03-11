@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Explore Perú</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <img src="../img/banner.jpg" width="100%">
+</header>
+
+<main>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Explore Perú</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample05">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">inicio</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Destinos</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown05">
+              <li><a class="dropdown-item" href="#">Costa</a></li>
+              <li><a class="dropdown-item" href="#">Sierra</a></li>
+              <li><a class="dropdown-item" href="#">Selva</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Experiencias</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown05">
+              <li><a class="dropdown-item" href="#">Aventura</a></li>
+              <li><a class="dropdown-item" href="#">Gastronomia</a></li>
+              <li><a class="dropdown-item" href="#">Histórico</a></li>
+              <li><a class="dropdown-item" href="#">Naturaleza</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Atractivos</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mis favoritos</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Contactos</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown05">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form>
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="../img/fondo1.jpg" width="100%">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Vinicunca o la montaña de colores.</h1>
+            <p>Está situada en el camino al nevado Ausangate, en los Andes del Perú, Región Cusco.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Mas información</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="../img/fondo2.jpg" width="100%">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Reserva Nacional Pacaya Samiria.</h1>
+            <p>La reserva se ubica en la amazonía del departamento de Loreto.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Mas información</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="../img/fondo3.jpg" width="100%">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Esta es una playa de arena de Dodola.</h1>
+            <p>isla pequeña cerca de Morotai, Indonesia. Alrededor de Dodola hay hermosos arrecifes de coral.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Mas información</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="../img/costa.jpg" width="75%">
+        <h2>Costa</h2>
+        <p>De norte a sur, desde Tumbes hasta Tacna la costa peruana se extiende por cerca de 3000 kilómetros de playas, desiertos y valles fértiles, formados por los ríos que bajan de la cordillera de los Andes a encontrarse con el mar.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="../img/sierra.jpg" width="75%">
+
+        <h2>Sierra</h2>
+        <p>Encaramado en lo alto de una cresta, a 300 metros sobre el río  Urubamba, la majestuosa ciudad inca de  Machu Picchu es uno de los escenarios más dramáticos de una ciudad en ruinas en cualquier parte del mundo.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="../img/selva.jpg" width="75%">
+
+        <h2>Selva</h2>
+        <p>Viajar a la Amazonía del Perú es vivir una experiencia única y enriquecedora. Adentrarse a esta región y contemplar cómo la geografía da paso a un interminable paisaje verde de bosques y ríos que se pierden en el horizonte...</p>
+        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+</main>
+
+<!-- FOOTER -->
+<footer style="background-color: black; color: white; padding: 20px; text-decoration-color: none;">
+  <div class="row align-items-start bg-black">
+    <div class="col">
+      <h5>Encuentranos</h5>
+      <a href="#" style="text-decoration: none;">
+        <img src="../img/facebook.png" width="40px" height="25px">
+        Facebook
+      </a><br>
+
+      <a href="#" style="text-decoration: none;">
+        <img src="../img/whatsapp.png" width="40px" height="25px">
+        WhatsApp
+      </a><br>
+
+      <a href="#" style="text-decoration: none;">
+        <img src="../img/youtube.png" width="40px" height="25px">
+        YouTube
+      </a><br>
+    </div>
+
+    <div class="col">
+      <h5>Novedades</h5>
+      <p>Noticias</p>
+      <p>Promociones</p>
+      <p>Promociones</p>
+    </div>
+
+    <div class="col">
+      <h5>Contacto</h5>
+      <p>Urb. Los Quintos</p>
+      <p>999600800</p>
+      <p>054-454545</p>
+    </div>
+    <div class="col">
+      <h5>Responsabilidad social</h5>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-recycle" viewBox="0 0 16 16">
+        <path d="M9.302 1.256a1.5 1.5 0 0 0-2.604 0l-1.704 2.98a.5.5 0 0 0 .869.497l1.703-2.981a.5.5 0 0 1 .868 0l2.54 4.444-1.256-.337a.5.5 0 1 0-.26.966l2.415.647a.5.5 0 0 0 .613-.353l.647-2.415a.5.5 0 1 0-.966-.259l-.333 1.242zM2.973 7.773l-1.255.337a.5.5 0 1 1-.26-.966l2.416-.647a.5.5 0 0 1 .612.353l.647 2.415a.5.5 0 0 1-.966.259l-.333-1.242-2.545 4.454a.5.5 0 0 0 .434.748H5a.5.5 0 0 1 0 1H1.723A1.5 1.5 0 0 1 .421 12.24zm10.89 1.463a.5.5 0 1 0-.868.496l1.716 3.004a.5.5 0 0 1-.434.748h-5.57l.647-.646a.5.5 0 1 0-.708-.707l-1.5 1.5a.5.5 0 0 0 0 .707l1.5 1.5a.5.5 0 1 0 .708-.707l-.647-.647h5.57a1.5 1.5 0 0 0 1.302-2.244z"/>
+      </svg>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-reddit" viewBox="0 0 16 16">
+        <path d="M6.167 8a.83.83 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661m1.843 3.647c.315 0 1.403-.038 1.976-.611a.23.23 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83s.83-.381.83-.83a.831.831 0 0 0-1.66 0z"/>
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.2.2 0 0 0-.153.028.2.2 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224q-.03.17-.029.353c0 1.795 2.091 3.256 4.669 3.256s4.668-1.451 4.668-3.256c0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165"/>
+      </svg>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-tree-fill" viewBox="0 0 16 16">
+        <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777z"/>
+      </svg>
+    </div>
+  </div>
+</footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
